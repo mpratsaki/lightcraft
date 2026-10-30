@@ -6,7 +6,7 @@ How far each interface language is from `full`. How to add or maintain a languag
 [localization.md](localization.md); per-language notes are in `localization-<code>.md`
 ([zh-hans](localization-zh-hans.md), [zh-hant](localization-zh-hant.md), [ja](localization-ja.md),
 [pt-br](localization-pt-br.md), [es](localization-es.md), [de](localization-de.md),
-[ru](localization-ru.md), [fi](localization-fi.md), [ka](localization-ka.md), [id](localization-id.md), [vi](localization-vi.md), [pl](localization-pl.md)).
+[ru](localization-ru.md), [fi](localization-fi.md), [ka](localization-ka.md), [id](localization-id.md), [vi](localization-vi.md), [pl](localization-pl.md), [el](localization-el.md)).
 
 ## The target
 
@@ -73,7 +73,7 @@ string follows that.
 | Georgian | `ka` | 2,398 / 2,398 (100%: every plain and formats message any catalog has on 2026-10-12, plus the 27 display labels and 397 What's New lines no other catalog translates) | Geor: no craft-fonts face yet (boxes until one is available) | yes (native speaker) | partial (lower-layer errors English) | 2–4 h (+ a Georgian face) |
 | Finnish | `fi` | 2,610 / 3,308 (79%, measured 2026-10-17: 2,313 plain + 297 formats; the rest is What's New) | Latin (Inter) | yes (written with an agent; native-speaker review by @roopeg) | partial (lower-layer errors English) | 3–5 h |
 | Polish | `pl` | 2,159 messages + 291 formats; every format message translated (2026-10-15) | Latin (Inter) | no (AI-drafted; follow-up by a native speaker) | partial (lower-layer errors English) | 2–4 h (full native review) |
-| Greek | `el` | 2,392 messages + 296 formats (2026-10-29: every interface string in the source and every format message; What's New left in English) | Greek (Inter) | yes (written with an agent; native-speaker review by @mpratsaki) | partial (lower-layer errors English) | 1–2 h (What's New, lower-layer errors) |
+| Greek | `el` | 2,392 messages + 295 formats (2026-10-30: every interface string in the source and every format message that reads differently from the English; What's New left in English) | Greek (Inter) | yes (written with an agent; native-speaker review by @mpratsaki) | partial (lower-layer errors English) | 1–2 h (What's New, lower-layer errors) |
 
 Target languages LightCraft lacks: Korean, Dutch, Norwegian Bokmål, Thai
 (Thai needs shaping and line breaking without spaces). Each Latin-script one is ~10–16 h; Thai
@@ -100,7 +100,7 @@ Target languages LightCraft lacks: Korean, Dutch, Norwegian Bokmål, Thai
 
 | Date | Change | Summary |
 |---|---|---|
-| 2026-10-30 | minor | Greek interface catalog (`el`): every interface string in the source (2,392) and every formats message (296), reviewed by a native speaker; What's New left in English ([localization-el.md](localization-el.md)) |
+| 2026-10-30 | minor | Greek interface catalog (`el`): every interface string in the source (2,392) and every formats message that reads differently from the English (295), reviewed by a native speaker; What's New left in English ([localization-el.md](localization-el.md)) |
 | 2026-10-19 | minor | Indonesian interface catalog (`id`): every plain and formats message any catalog has, plus 69 command labels; What's New left in English |
 | 2026-10-17 | minor | Finnish interface catalog (`fi`): 2,610 of 3,308 messages (2,313 plain + 297 formats), What's New left in English |
 | 2026-10-15 | minor | Polish row added: the format messages still in English translated, counts made right for every number, dates day.month.year ([localization-pl.md](localization-pl.md)) |

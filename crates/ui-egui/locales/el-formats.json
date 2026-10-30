@@ -255,7 +255,6 @@
   "{n} selected photos · {pages} pages": "{n} επιλεγμένες φωτογραφίες · {pages} σελίδες",
   "{n} similar photo{} · View ▸ Clear Filters to see all": "Παρόμοιες φωτογραφίες: {n}{:.0} · Προβολή → Κατάργηση φίλτρων για να δείτε όλες",
   "{n} tasks are still running: {names}. Quitting stops them.": "{n} εργασίες εκτελούνται ακόμη: {names}. Η έξοδος τις σταματά.",
-  "{n} {noun}": "{noun}: {n}",
   "{photos} catalog records processed; {collections} collections.": "Επεξεργάστηκαν εγγραφές καταλόγου: {photos}, συλλογές: {collections}.",
   "{pid} (missing)": "{pid} (λείπει)",
   "{sel_n} selected · {counted}": "Επιλέχθηκαν {sel_n} · {counted}",
