@@ -293,5 +293,21 @@
   "“{parent}” has a “{name}” already. Merge the two?": "Το «{parent}» έχει ήδη «{name}». Συγχώνευση των δύο;",
   "“{to}” is already a person. Combining them makes one person; Undo separates them again.": "Το «{to}» είναι ήδη άτομο. Η συνένωση τα κάνει ένα άτομο, η Αναίρεση τα χωρίζει ξανά.",
   "… and {more} more": "… και {more} ακόμη",
-  "…and {more} more": "…και {more} ακόμη"
+  "…and {more} more": "…και {more} ακόμη",
+  "Add Keyword “{keywords}”": "Προσθήκη λέξης-κλειδιού «{keywords}»",
+  "Can't read this folder: {}": "Δεν είναι δυνατή η ανάγνωση αυτού του φακέλου: {}",
+  "Collapse {name}": "Σύμπτυξη {name}",
+  "Created folder “{name}” in “{parent}”": "Δημιουργήθηκε ο φάκελος «{name}» στο «{parent}»",
+  "Creates {stacks} stack{} from {photos} of {scope}": "Στοίβες που θα δημιουργηθούν: {stacks}{:.0}, από φωτογραφίες: {photos} ({scope})",
+  "Expand {name}": "Ανάπτυξη {name}",
+  "Import photos with File → Import Photos… ({}), or drop them here": "Εισαγάγετε φωτογραφίες με Αρχείο → Εισαγωγή φωτογραφιών… ({}) ή αφήστε τες εδώ",
+  "Panel layout could not be restored: {error}": "Δεν ήταν δυνατή η επαναφορά της διάταξης πλαισίων: {error}",
+  "Panel move was not applied: {error}": "Η μετακίνηση πλαισίου δεν εφαρμόστηκε: {error}",
+  "Photo: {name}": "Φωτογραφία: {name}",
+  "{in_trash} catalog photos are in this library's Recently Deleted and stay there; restore them from Recently Deleted to see them.": "Φωτογραφίες του καταλόγου στα Πρόσφατα διαγραμμένα αυτής της βιβλιοθήκης: {in_trash}. Μένουν εκεί. Επαναφέρετέ τες από τα Πρόσφατα διαγραμμένα για να τις δείτε.",
+  "{name} is installed": "Το {name} είναι εγκατεστημένο",
+  "{name} is installed and in use: face recognition is on": "Το {name} είναι εγκατεστημένο και σε χρήση: η αναγνώριση προσώπων είναι ενεργή",
+  "{name} value": "Τιμή {name}",
+  "{n} photo{} in view · {slides} slide{} · {time}": "Φωτογραφίες σε προβολή: {n}{:.0} · διαφάνειες: {slides}{:.0} · {time}",
+  "{n} selected photo{} · {pages} page{}": "Επιλεγμένες φωτογραφίες: {n}{:.0} · σελίδες: {pages}{:.0}"
 }
